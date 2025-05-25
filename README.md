@@ -63,33 +63,6 @@ Estrutura modular baseada em camadas lógicas: negócio, aplicação e tecnologi
 
 ---
 
-## 🖼️ Diagrama ArchiMate
-
-<p align="center">
-  <img src="docs/diagram-mototrack.png" alt="Diagrama ArchiMate do MotoTrack" width="600"/>
-</p>
-
-> O diagrama representa a interação entre os elementos de negócio, aplicação e tecnologia, conforme o padrão ArchiMate.
-
----
-
-## 📁 Estrutura do Projeto
-
-```
-MotoTrack/
-├── Controllers/
-├── Models/
-├── Dtos/
-├── Data/
-├── Program.cs
-├── appsettings.json
-├── README.md
-└── docs/
-    └── diagram-mototrack.png
-```
-
----
-
 ## 📌 Como Rodar
 
 ```bash
