@@ -1,5 +1,5 @@
-
 # MotoTrack 🚀
+
 Sistema de Rastreamento de Motos com RFID desenvolvido em ASP.NET Core 8.0 + EF Core + Oracle.
 
 ## 🎯 Visão do Projeto
@@ -28,19 +28,23 @@ O **MotoTrack** propõe:
 ## 🏗️ Arquitetura da Solução (TOGAF + ArchiMate)
 
 ### 🔭 Visão da Arquitetura
+
 Estrutura modular baseada em camadas lógicas: negócio, aplicação e tecnologia. Usa ArchiMate para representar a integração dos componentes.
 
 ### 🧱 Arquitetura de Negócio
+
 - Entidades: Moto, Leitor RFID, Registro de Leitura.
 - Processos: Cadastro de veículos, leituras automáticas, consulta de histórico.
 
 ### ⚙️ Arquitetura de Sistema
+
 - API RESTful em ASP.NET Core 8.0
 - Camada de persistência com EF Core
 - Endpoints para Motos, Leitores e Registros
 - Swagger/OpenAPI para documentação
 
 ### 💾 Arquitetura de Tecnologia
+
 - Banco de Dados Oracle (via EF Core)
 - Hospedagem em ambiente .NET
 - Integração com sensores RFID
@@ -98,6 +102,14 @@ dotnet run
 
 ---
 
-## 📃 Licença
+## Video pitch
 
-MIT © 2025 — Projeto acadêmico FIAP - Advanced Business Development with .NET
+https://studio.youtube.com/video/3k1S9CXILw8/edit
+
+---
+
+## Equipe do Projeto
+
+| **Angello Turano** **RM: 556511** | **Cauã Sanches** **RM:558317** | **Leonardo Bianchi** **RM:558576** |
+
+---
