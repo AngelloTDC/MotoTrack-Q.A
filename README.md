@@ -1,6 +1,14 @@
 # MotoTrack 🏍️
 Solução de rastreamento e gestão de motocicletas utilizando tecnologia RFID, com backend em .NET Core, banco Oracle e arquitetura baseada em ArchiMate.
 
+---
+
+## Equipe do Projeto
+
+| **Angello Turano** **RM: 556511** | **Cauã Sanches** **RM:558317** | **Leonardo Bianchi** **RM:558576** |
+
+---
+
 ## 📌 Visão Geral
 MotoTrack é um sistema que permite a localização e gestão de motos em tempo real, voltado para operações de locação e logística de frotas. Utiliza sensores RFID distribuídos no pátio e etiquetas nas motos para mapear sua posição, integrando-se a uma API central e painel web.
 
@@ -48,7 +56,3 @@ O projeto está modelado em camadas ArchiMate:
 - /docs – Diagramas ArchiMate, modelos e documentação
 - MotoTrack.archimate – Modelo completo (abrir com Archi)
 - mototrack_texto_expandido.pdf – Arquitetura explicada em PDF
-
-## Equipe do Projeto
-
-| **Angello Turano** **RM: 556511** | **Cauã Sanches** **RM:558317** | **Leonardo Bianchi** **RM:558576** |
