@@ -49,5 +49,6 @@ O projeto está modelado em camadas ArchiMate:
 - MotoTrack.archimate – Modelo completo (abrir com Archi)
 - mototrack_texto_expandido.pdf – Arquitetura explicada em PDF
 
-## 📄 Licença
-Este projeto é acadêmico, desenvolvido com fins de demonstração e aprendizado.
+## Equipe do Projeto
+
+| **Angello Turano** **RM: 556511** | **Cauã Sanches** **RM:558317** | **Leonardo Bianchi** **RM:558576** |
