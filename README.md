@@ -1,4 +1,4 @@
-# MotoTrack 🏍️
+# MotoTrack
 Solução de rastreamento e gestão de motocicletas utilizando tecnologia RFID, com backend em .NET Core, banco Oracle e arquitetura baseada em ArchiMate.
 
 ---
@@ -9,16 +9,16 @@ Solução de rastreamento e gestão de motocicletas utilizando tecnologia RFID, 
 
 ---
 
-## 📌 Visão Geral
+## Visão Geral
 MotoTrack é um sistema que permite a localização e gestão de motos em tempo real, voltado para operações de locação e logística de frotas. Utiliza sensores RFID distribuídos no pátio e etiquetas nas motos para mapear sua posição, integrando-se a uma API central e painel web.
 
-## 🎯 Objetivos
+## Objetivos
 - Aumentar a eficiência na localização de motos em depósitos
 - Eliminar erros humanos na identificação de veículos
 - Automatizar o processo de monitoramento com IoT e visão computacional
 - Fornecer painel de controle com rastreamento em tempo real
 
-## 🧱 Arquitetura (Modelo ArchiMate)
+## Arquitetura (Modelo ArchiMate)
 O projeto está modelado em camadas ArchiMate:
 
 - 🟪 Motivação: Stakeholders (Administrador, Usuário), Drivers (Segurança, Eficiência), Goal (Rastreamento em Tempo Real)
@@ -29,7 +29,7 @@ O projeto está modelado em camadas ArchiMate:
 
 📎 Diagrama incluído em /docs ou no PDF: mototrack_texto_expandido.pdf
 
-## 🧰 Tecnologias
+## Tecnologias
 
 | Camada         | Tecnologias                                 |
 |----------------|---------------------------------------------|
@@ -39,19 +39,19 @@ O projeto está modelado em camadas ArchiMate:
 | DevOps         | Docker, CI/CD Pipeline, Oracle Client       |
 | Infraestrutura | Leitores RFID, Etiquetas RFID, Servidores   |
 
-## 🔐 Funcionalidades
+## Funcionalidades
 - Autenticação com JWT
 - Cadastro e visualização de motos
 - Registro de leituras RFID automáticas
 - Painel de localização em tempo real
 - Gerenciamento de usuários e dispositivos
 
-## 🛠 Como Executar (resumo)
+## Como Executar (resumo)
 1. Configure o banco Oracle e adicione sua connection string em appsettings.json
 2. Execute via dotnet run ou docker-compose (se disponível)
 3. Acesse o Swagger em https://localhost:xxxx/swagger para testar a API
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 - /src – Código-fonte da API
 - /docs – Diagramas ArchiMate, modelos e documentação
 - MotoTrack.archimate – Modelo completo (abrir com Archi)
