@@ -58,4 +58,5 @@ O projeto está modelado em camadas ArchiMate:
 - mototrack_texto_expandido.pdf – Arquitetura explicada em PDF
 
 Link para o repositório: https://github.com/AngelloTDC/MotoTrack-Q.A
+
 Link para o Azure: https://dev.azure.com/MotoTrack-FIAP/
